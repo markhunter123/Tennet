@@ -104,8 +104,8 @@ Tennet 目前还没有发布过 Apache release。当前从本仓库或包管理�
 ### 启动 Desktop
 
 ```sh
-git clone https://github.com/tennet-ai/tennet.git
-cd tennet
+git clone https://github.com/markhunter123/Tennet.git
+cd Tennet
 npm ci
 npm run dev
 ```
@@ -268,4 +268,3 @@ npm --workspace @tennet/desktop run smoke:real-window
 Tennet 使用 [Apache License 2.0](./LICENSE) 开源，归属信息见
 [NOTICE](./NOTICE)。第三方组件仍分别适用其自身的许可证与声明。
 
-Tennet、Tennet、Apache、Apache 羽毛标志和 Tennet 项目标志是 Apache 软件基金会的注册商标或商标。
