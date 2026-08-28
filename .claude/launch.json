@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "storybook",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--workspace", "@tennet/desktop", "run", "storybook", "--", "--no-open"],
+      "port": 6006
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "tennet-core" },
+    { "path": "tennet-storage" },
+    { "path": "tennet-mcp" },
+    { "path": "tennet-runtime" },
+    { "path": "tennet-runtime-host" },
+    { "path": "tennet-computer-use" },
+    { "path": "tennet-ui" }
+  ]
+}

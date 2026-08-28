@@ -1,0 +1,24 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["vite/client"],
+    "paths": {
+      "@tennet/ui": ["../tennet-ui/src/index.ts"],
+      "@tennet/ui/icons": ["../tennet-ui/src/icons.tsx"],
+      "@tennet/ui/artifact-preview-registry": ["../tennet-ui/src/artifact-preview-registry.ts"],
+      "@tennet/ui/assistant-stream": ["../tennet-ui/src/assistant-stream.ts"],
+      "@tennet/ui/tennet-uri": ["../tennet-ui/src/tennet-uri.ts"],
+    }
+  },
+  "include": [
+    ".storybook/**/*.ts",
+    ".storybook/**/*.tsx",
+    "stories/**/*.ts",
+    "stories/**/*.tsx",
+    "src/global.d.ts",
+    "../tennet-ui/stories/**/*.ts",
+    "../tennet-ui/stories/**/*.tsx"
+  ]
+}

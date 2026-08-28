@@ -1,0 +1,10 @@
+{
+  "name": "dsh-profile-tennet-eval",
+  "private": true,
+  "dependencies": {},
+  "dsh": {
+    "profile": {
+      "bundles": []
+    }
+  }
+}
