@@ -96,6 +96,13 @@ node native/runtime-host-peer/build.mjs
 - 中文文档中：代码块、命令、CLI 参数、环境变量、文件路径、包名、版本号、模型名保留原文；常用技术术语（runtime、workspace、sandbox、MCP、prompt 等）保留英文
 - ASF 许可证头注释块（文件顶部的 HTML/JS 注释）保持英文原样，任何文档翻译不得触碰
 
+## 桌面快捷方式（本机）
+
+- 桌面 `Tennet.lnk` → `D:\project\tennet-launcher\Tennet.vbs`：无控制台窗口启动**已构建**的应用（`npm --workspace @tennet/desktop run start`），图标为 Beacon T（Tennet.ico）
+- 快捷方式启动的是 `dist-renderer` 预构建产物，**改代码后需先 `npm run build`（或至少 `npm --workspace @tennet/desktop run build:renderer`）**，快捷方式才会反映新代码
+- 启动日志：`%TEMP%\tennet-launch.log`；启动失败且无窗口时先查它
+- 单实例锁：dev 实例（`npm run dev`）在跑时，快捷方式启动会被吸收退出；反之亦然
+
 ## 其他注意
 
 - GitHub URL 使用占位组织 `tennet-ai/tennet`（原 apache/maka），上线前替换为真实仓库
