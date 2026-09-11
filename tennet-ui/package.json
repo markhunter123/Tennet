@@ -23,18 +23,18 @@
     "test:dist": "node --test \"dist/**/*.test.js\""
   },
   "dependencies": {
-    "@astryxdesign/core": "0.5.0",
+    "@astryxdesign/core": "0.5.4",
     "@tennet/core": "1.0.0",
     "clsx": "^2.1.1",
-    "katex": "0.16.47",
-    "lucide-react": "^1.33.0",
-    "mermaid": "^11.17.0",
+    "katex": "0.18.7",
+    "lucide-react": "^1.42.0",
+    "mermaid": "^11.17.2",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
+    "@types/react-dom": "^19.2.7",
     "linkedom": "^0.18.13"
   }
 }
