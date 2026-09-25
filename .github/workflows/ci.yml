@@ -259,7 +259,7 @@ jobs:
 
       - name: Install cargo-deny for CLI packaging
         if: steps.plan.outputs.cli_package == 'true'
-        uses: taiki-e/install-action@fcf5432d9f50d67e37ee6e29bdb7a224ff67b4a7 # v2
+        uses: taiki-e/install-action@dfae9bf3d6f6c6f20ef4ebb3486c01a51341ff12 # v2
         with:
           tool: cargo-deny@0.20.2
 
