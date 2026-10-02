@@ -30,8 +30,8 @@
     "@tennet/core": "1.0.0",
     "@tennet/runtime": "1.0.0",
     "@tennet/storage": "1.0.0",
-    "ws": "^8.21.3",
-    "zod": "^4.4.3"
+    "ws": "^8.22.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@types/ws": "^8.18.1",
